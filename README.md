@@ -8,7 +8,7 @@ Painel web para consultar o status de qualquer servidor de Minecraft (Java Editi
 
 ## Como funciona
 
-O Minecraft tem um protocolo próprio chamado **Server List Ping** — é o mesmo que o launcher do jogo usa para mostrar o status na lista de servidores. O backend faz esse "aperto de mão" com o servidor informado e traduz a resposta para um JSON limpo, que o front-end usa para desenhar o painel.
+O Minecraft tem um protocolo próprio chamado **Server List Ping** é o mesmo que o launcher do jogo usa para mostrar o status na lista de servidores. O backend faz esse "aperto de mão" com o servidor informado e traduz a resposta para um JSON limpo, que o front-end usa para desenhar o painel.
 
 ```
 Navegador  ->  GET /api/status?host=mc.exemplo.net  ->  FastAPI
