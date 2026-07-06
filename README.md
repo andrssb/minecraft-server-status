@@ -5,7 +5,6 @@ Painel web para consultar o status de qualquer servidor de Minecraft (Java Editi
 <!-- Dica: tire um print da tela com um servidor consultado e coloque aqui -->
 <!-- ![Demonstração](docs/demo.png) -->
 
-**Demo:** _(adicione o link do deploy aqui depois de publicar no Render)_
 
 ## Como funciona
 
