@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Status</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1 class="titulo">Minecraft Server Status</h1>
+            <p class="subtitulo">Consulte o status de qualquer servidor Java em tempo real</p>
+        </header>
+
+        <form id="form-busca" class="busca">
+            <input
+                id="input-host"
+                type="text"
+                class="input"
+                placeholder="mc.hypixel.net"
+                autocomplete="off"
+                spellcheck="false"
+                required
+            >
+            <button type="submit" class="botao">Consultar</button>
+        </form>
+
+        <section id="resultado" class="resultado" hidden></section>
+    </main>
+
+    <footer class="rodape">
+        Feito com FastAPI + mcstatus. Não afiliado à Mojang/Microsoft.
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
