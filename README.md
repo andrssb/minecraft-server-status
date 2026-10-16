@@ -2,8 +2,7 @@
 
 Painel web para consultar o status de qualquer servidor de Minecraft (Java Edition) em tempo real. Digite o endereço do servidor e veja se está online, quantos jogadores estão conectados, a versão, o MOTD, o ping e o ícone, tudo com uma interface em tema pixelado.
 
-<!-- Dica: tire um print da tela com um servidor consultado e coloque aqui -->
-<!-- ![Demonstração](docs/demo.png) -->
+![Painel consultando o servidor mc.hypixel.net](docs/demo.png)
 
 
 ## Como funciona
